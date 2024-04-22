@@ -21,6 +21,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public String getId() {
-        return cart.getId().toString();
+        return cart.getId()
+                .toString();
     }
 }
